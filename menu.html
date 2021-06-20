@@ -7,122 +7,188 @@
     <title>Menu</title>
     <link rel="stylesheet" href="menu.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="img/chicken-plate-top.jpg" alt="" class="chicken-top">
-    <h1 class="title">Our Menu</h1>
-    <div class="bg-image"></div>
-    <div class="row">
-        <div class="col-1">
-            <img src="img/cripsy-chicken-crop.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Cripsy Chicken</h2>
-                <p>1pc : 1200kyats</p>
-                <p>3pcs : 3500kyats</p>
-                <button class="order-button">Order</button>
+
+    <!--nav start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white position-fixed w-100 top-0 animate__animated" id="nav">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">Fried Chicken Restaurant</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
-            
         </div>
-        <div class="col-2">
-            <img src="img/hot-spicy-chicken-crop.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Spicy Chicken</h2>
-                <p>1pc : 1200kyats</p>
-                <p>3pcs : 3500kyats</p>
-                <button class="order-button">Order</button>
+    </nav>
+    <!--nav end-->
+
+    <!-- Menu Start -->
+    <div class="container-fluid">
+        <!-- <h1>Our Menu</h1> -->
+        <div class="row">
+            <div class="col-md-12 mt-5 mb-4 title-col">
+                <h1 class="title mt-5">Our Menu</h1>
             </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 col-1">
+                    <img src="img/cripsy-chicken-crop.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Cripsy Chicken</h2>
+                        <p class="menudetail">1pc : 1$</p>
+                        <p class="menudetail">3pcs : 3$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                    
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-2">
+                    <img src="img/hot-spicy-chicken-crop.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Spicy Chicken</h2>
+                        <p class="menudetail">1pc : 1$</p>
+                        <p class="menudetail">3pcs : 3$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 col-1">
+                    <img src="img/bbq-chicken-crop.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">BBQ Chicken</h2>
+                        <p class="menudetail">1pc : 1$</p>
+                        <p class="menudetail">3pcs : 3$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                        
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-2">
+                    <img src="img/bbq-chicken-kangjong.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">BBQ Kangjong</h2>
+                        <p class="menudetail">1 : 3.5$</p>
+                        <p class="menudetail">3 : 9$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 col-1">
+                    <img src="img/chicken-gangjong-crop.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Chicken Gangjong</h2>
+                        <p class="menudetail">1 : 3.5$</p>
+                        <p class="menudetail">3 : 9$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-2">
+                    <img src="img/Beef Burger1.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Beef Burger</h2>
+                        <p class="menudetail">Small : 2$</p>
+                        <p class="menudetail">Large :  4$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 col-1">
+                    <img src="img/cheese-burger-large.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Cheese Burger</h2>
+                        <p class="menudetail">Small : 2$</p>
+                        <p class="menudetail">Large :  4$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-2">
+                    <img src="img/fried_potato.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Fried Potato</h2>
+                        <p class="menudetail">1 : 1$</p>
+                        <p class="menudetail">3 : 6$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 col-1">
+                    <img src="img/cola.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Cola</h2>
+                        <p class="menudetail">1 : 1$</p>
+                        <p class="menudetail">3 : 2.5$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4 col-2">
+                    <img src="img/orange.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Orange Juice</h2>
+                        <p class="menudetail">1 : 1$</p>
+                        <p class="menudetail">3 : 2.5$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 col-1">
+                    <img src="img/ice-americano.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Ice Americano</h2>
+                        <p class="menudetail">1 : 1$</p>
+                        <p class="menudetail">3 : 2.5$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-1"></div>
+                <div class="col-md-4 col-2">
+                    <img src="img/ice-latte.jpg" alt="" class="menuphoto">
+                    <div class="menutext">
+                        <h2 class="menutitle">Ice Latte</h2>
+                        <p class="menudetail">1 : 1$</p>
+                        <p class="menudetail">3 : 2.5$</p>
+                        <button class="order-button">Order</button>
+                    </div>
+                </div>
+        </div>
+        </div>
+        
+    
+    <!-- Menu ENd -->
+   <!-- footer start -->
+   <div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <p>All Right Reversed.Copy Right 2021,Design by HTML CSS</p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-1">
-            <img src="img/bbq-chicken-crop.jpg" alt="" class="menuphoto">
-            <h2>BBQ Chicken</h2>
-                <p>1pc : 1200kyats</p>
-                <p>3pcs : 3500kyats</p>
-                <button class="order-button">Order</button>
-        </div>
-        <div class="col-2">
-            <img src="img/bbq-chicken-kangjong.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>BBQ chicken Kangjong</h2>
-                <h3>3500Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1">
-            <img src="img/chicken-gangjong-crop.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Chicken Gangjong</h2>
-                <h3>3500Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-        <div class="col-2">
-            <img src="img/Beef Burger1.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Beef Burger</h2>
-                <h3>2000Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1">
-            <img src="img/cheese-burger-large.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Cheese Burger</h2>
-                <h3>2000Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-        <div class="col-2">
-            <img src="img/fried_potato.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Fried Potato</h2>
-                <h3>1500Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1">
-            <img src="img/cola.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Cola</h2>
-                <h3>1000Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-        <div class="col-2">
-            <img src="img/orange.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Orange Juice</h2>
-                <h3>1000Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-1">
-            <img src="img/ice-americano.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Ice Americano</h2>
-                <h3>1500Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-        <div class="col-2">
-            <img src="img/ice-latte.jpg" alt="" class="menuphoto">
-            <div class="menutext">
-                <h2>Ice Latte</h2>
-                <h3>1500Kyats</h3>
-                <button class="order-button">Order</button>
-            </div>
-        </div>
-    </div>
-   
+</div>
+<!-- footer end -->
 </body>
 </html>

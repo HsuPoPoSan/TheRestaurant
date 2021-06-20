@@ -25,42 +25,40 @@ body, html {
 }
 .title{
     text-align : center;
-    color : rgb(253, 0, 0);
-    top : 90px;
-    left : 550px;
-    position : absolute;
+    color : rgb(7, 7, 7);
+    /* position : absolute; */
     font-size : 45px;
 
 }
 .col-1{
-    float  : left;
-    width:35%;
     background-color: rgb(148, 33, 22);
-    margin : 20px 20px 20px 110px;
-    padding : 30px 25px 0px 35px;
+    color : #bbb7b7;
     height : 200px;
     border-radius : 30px;
+    margin : 0px 0px 30px 0px;
 }
 .col-2{
-    float : left;
-    width:35%;
     background-color: rgb(148, 33, 22);
-    padding : 30px 25px 0px 35px;
-    margin : 20px;
+    color : #b8b3b3;
     height : 200px;
     border-radius : 30px;
+    margin : 0px 0px 20px 0px;
+}
+.menutitle{
+    font-size : 30px;
 }
 .menuphoto{
-    width : 35%;
-    border-radius : 50%;
     float : left;
-    margin-right : 80px;
+    width : 25%;
+    border-radius : 50%;
+    margin : 40px 10px 0px 10px;
+    
 }
 .menutext{
-    margin : 30px 0px 30px 0px;
+    margin : 20px 0px 0px 150px;
 }
 .order-button{
-    margin-left : 100px;
+    margin-left : 150px;
     width : 70px;
     height : 25px;
     font-size : 13px;
